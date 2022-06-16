@@ -1,0 +1,9 @@
+.btn {
+  border-radius: 12px;
+  background: lightblue;
+  font-size: 1.3em;
+  padding: 8px;
+  font-style: oblique;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.kamban {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  padding: 6px;
+  border-radius: 1.3em;
+  margin: 1.5em;
+}
+
+.columna-titulo {
+  border-bottom-style: solid;
+}
+
+.columna-kamban {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-left: 0em;
+  margin-right: 0em;
+}

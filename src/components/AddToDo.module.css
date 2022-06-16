@@ -1,0 +1,41 @@
+.nav {
+  border-style: solid;
+  border-radius: 1em;
+  margin: 8px 30px;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+
+.input {
+  font-size: 1.2em;
+  border-radius: 9px;
+  margin: 8px;
+  font-style: italic;
+  font-weight: revert;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.btn {
+  border-radius: 12px;
+  background: lightblue;
+  font-size: 1.3em;
+  padding: 8px;
+  font-style: oblique;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}

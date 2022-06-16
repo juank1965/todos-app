@@ -1,0 +1,8 @@
+.card {
+  background: hwb(143 9% 5%);
+  border-radius: 10px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+}
