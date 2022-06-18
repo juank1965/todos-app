@@ -11,7 +11,6 @@ function App() {
   let agregaTarea = (tarea) => {
     tarea["id"] = tareas.length + 1;
     tarea["estado"] = "pendiente";
-    console.log(tarea);
     setTareas((prevTareas) => [...prevTareas, tarea]);
   };
 
@@ -36,7 +35,7 @@ function App() {
         render={() => <AddToDo addTarea={agregaTarea} />}
       />
 
-      <Route exact path={"/"}>
+      <Route path={"/"}>
         <Kamban tareas={tareas} chgEstado={changeEstado} />
       </Route>
     </div>

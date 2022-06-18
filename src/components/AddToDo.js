@@ -10,7 +10,6 @@ export default function AddToDo(props) {
   });
 
   const handleChange = (e) => {
-    console.log(e.target.value);
     setTarea((prevToDo) => ({
       ...prevToDo,
       [e.target.name]: e.target.value,
@@ -21,7 +20,6 @@ export default function AddToDo(props) {
     e.preventDefault();
     let newTarea = tarea;
     setTarea({ nombre: "", descripcion: "", detalle: "" });
-    console.log(newTarea);
     props.addTarea(newTarea);
   };
 

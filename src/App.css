@@ -44,6 +44,7 @@
   padding: 6px;
   border-radius: 1.3em;
   margin: 1.5em;
+  flex-wrap: wrap;
 }
 
 .columna-titulo {
