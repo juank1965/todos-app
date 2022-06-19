@@ -5,7 +5,7 @@ import CardToDo from "./CardToDo";
 export default function Kamban(props) {
   return (
     <div>
-      <h2>Tablero kamban de tareas</h2>
+      <h2>Tablero kanban de tareas</h2>
       <div className="kamban">
         <div className="columna-kamban">
           <h3 className="columna-titulo">Pendientes</h3>
